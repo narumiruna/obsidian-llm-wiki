@@ -10,3 +10,8 @@
 - [[raw/llm-wiki]]
 - [[raw/Thread by @karpathy]]
 - [[raw/How I use Obsidian]]
+
+## Templates
+
+- [[templates/Note Template]] — General synthesis template for wiki notes.
+- [[templates/Research Paper Template]] — Structured template for reading, evaluating, and linking research papers.
