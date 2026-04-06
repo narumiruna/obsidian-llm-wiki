@@ -9,3 +9,8 @@
 - Sources: N/A (template creation)
 - Updated pages: [[templates/Research Paper Template]], [[INDEX]], [[LOG]]
 - Notes: Added a reusable Obsidian template for paper review, evidence tracking, and follow-up actions.
+
+## [2026-04-06] ingest | Attention Residuals
+- Sources: https://www.alphaxiv.org/overview/2603.15031.md, https://arxiv.org/abs/2603.15031
+- Updated pages: [[wiki/Attention Residuals]], [[INDEX]], [[LOG]]
+- Notes: Created a paper note based on AlphaXiv overview and linked it into the wiki index.
