@@ -1,5 +1,10 @@
 # LOG
 
+## [2026-04-08] ingest | How I use Obsidian
+- Sources: [[raw/How I use Obsidian]]
+- Updated pages: [[wiki/How I use Obsidian]], [[INDEX]], [[LOG]]
+- Notes: Re-ingested the source into a fuller synthesis covering vault structure, templates, review loops, and the tension between Ango's manual understanding practice and LLM-maintained wiki workflows.
+
 ## [2026-04-06] query | Create note for How I use Obsidian
 - Sources: [[raw/How I use Obsidian]]
 - Updated pages: [[wiki/How I use Obsidian]], [[INDEX]], [[LOG]]

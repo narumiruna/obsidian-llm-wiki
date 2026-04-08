@@ -3,7 +3,7 @@
 ## Wiki Notes
 
 - [[wiki/LLM Wiki Workflow]] — Compiled workflow for maintaining an LLM-powered knowledge wiki.
-- [[wiki/How I use Obsidian]] — Summary of Steph Ango's file-first note-taking workflow and operating rules.
+- [[wiki/How I use Obsidian]] — File-first Obsidian workflow emphasizing heavy linking, reusable properties, review loops, and caution about automating understanding.
 - [[wiki/Attention Residuals]] — Paper note on depth-wise residual attention (AttnRes / Block AttnRes) and key reported gains.
 
 ## Raw Sources

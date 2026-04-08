@@ -21,19 +21,22 @@ This vault is a compiled knowledge base. Sources are collected in `raw/`, then s
 
 ## Standard Workflow
 1. Ingest: capture or read source material in `raw/`.
-2. Synthesize: create/update notes in `wiki/` with evidence-backed claims.
-3. File query outputs back into `wiki/` when they add durable value as summaries, comparisons, analyses, or new concept pages.
-4. Cross-link: add meaningful links to related notes and concepts.
-5. Update catalog: modify `INDEX.md` for new or materially changed notes.
-6. Update timeline: append a dated entry to `LOG.md` for ingest, query, and lint work using:
+2. Re-read any existing wiki note for the same source before rewriting it, then preserve durable insights while replacing weak summaries or omissions.
+3. Synthesize: create/update notes in `wiki/` with evidence-backed claims.
+4. When a source has clear tensions with existing wiki conventions or claims, name that tension explicitly instead of smoothing it away.
+5. File query outputs back into `wiki/` when they add durable value as summaries, comparisons, analyses, or new concept pages.
+6. Cross-link: add meaningful links to related notes and concepts.
+7. Update catalog: modify `INDEX.md` for new or materially changed notes.
+8. Update timeline: append a dated entry to `LOG.md` for ingest, query, and lint work using:
    `## [YYYY-MM-DD] ingest|query|lint | <topic>`
 
-If vault knowledge changed, steps 5 and 6 are mandatory in the same task. Even when no wiki files change, substantial ingest, query, or lint work should still be logged in `LOG.md`.
+If vault knowledge changed, steps 7 and 8 are mandatory in the same task. Even when no wiki files change, substantial ingest, query, or lint work should still be logged in `LOG.md`.
 
 ## Quality Checks
 - Verify key claims against source notes in `raw/`.
 - Check for contradictions, stale statements, and orphan pages.
 - Confirm newly added notes are reachable from `INDEX.md`.
+- Review newly added wikilinks: they should resolve to existing notes or be intentional unresolved breadcrumbs for likely future pages.
 - Run `git status` before finishing.
 
 ## Command Shortcuts

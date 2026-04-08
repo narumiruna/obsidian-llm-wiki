@@ -1,7 +1,7 @@
 ---
 title: "How I use Obsidian"
 created: "2026-04-06"
-updated: "2026-04-06"
+updated: "2026-04-08"
 type: "source-summary"
 status: "active"
 source_urls:
@@ -19,47 +19,59 @@ confidence: "high"
 # How I use Obsidian
 
 > [!abstract] TL;DR
-> A practical, file-first Obsidian workflow: minimal folder dependence, heavy internal linking, reusable templates and properties, and periodic review loops to keep notes connected and useful over time.
+> Steph Ango treats Obsidian as a file-first thinking environment: keep structure lightweight, rely on links and reusable properties instead of deep folder hierarchies, and maintain understanding through deliberate review habits rather than outsourcing that understanding to automation.
 
 ## Core Principles
 
-- File over app: a vault is a plain folder of durable files.
-- Prefer simple rules over ad-hoc decisions.
-- Keep organization lightweight; let links and properties carry structure.
-- Avoid delegating core understanding to automation.
+- File over app: a vault should remain a durable folder of readable files.
+- Explicit personal rules reduce future naming and organization decisions.
+- Lightweight structure beats rigid taxonomy; links, categories, and properties do most of the work.
+- Understanding is part of the practice, so some maintenance should remain manual and reflective.
 
-## Working Style
+## Vault Shape
 
-- Use internal links aggressively, including unresolved links as future breadcrumbs.
-- Use templates for most note creation to standardize metadata.
-- Revisit old notes randomly to add missing links and maintenance edits.
-- Use date conventions (`YYYY-MM-DD`) consistently.
+- Avoid splitting life across multiple vaults.
+- Use very few folders and avoid nested sub-folders.
+- Keep most authored notes near the root; reserve folders mainly for reference material and admin areas.
+- Use `categories` and other note properties to organize related material instead of relying on file paths.
 
-## Information Architecture
+## Operating Rules
 
-- Most authored notes can live near root-level context.
-- Reference material should be clearly separated from personal writing.
-- Admin/support areas (attachments, templates, daily notes) should reduce navigation noise.
+- Use internal links aggressively, including unresolved links as breadcrumbs for future notes.
+- Pluralize categories and tags, and use `YYYY-MM-DD` dates consistently.
+- Keep a small set of stable rules so new notes fit the system without repeated micro-decisions.
+- Use a 1-7 rating scale when a note type benefits from lightweight evaluation.
 
-## Metadata & Retrieval
+## Templates and Properties
 
 - Reusable properties across note types improve cross-category browsing.
-- Prefer list-type properties when values may expand.
-- A simple rating scale (1-7) can add useful resolution for reviews.
+- Templates make it cheap to add structured metadata at note creation time.
+- Prefer short, composable property names that can be reused across categories.
+- Default list-type properties over text when values may expand later.
 
-## Publishing & Tooling
+## Review Loops
 
-- Obsidian can be the writing interface while static site tooling handles publishing.
-- Web clipping and local asset download improve source retention.
-- Plugin/tool choices should support retrieval and long-term maintainability.
+- Fractal journaling means reviewing short notes into larger periodic syntheses.
+- Random revisits help surface forgotten ideas, missing links, and formatting cleanup.
+- These review passes are part of how Ango develops understanding, not just how he cleans data.
 
-> [!todo]
-> Adapt these rules into vault-specific templates and property standards for `wiki/` notes.
+## Tooling and Publishing
+
+- Obsidian is the primary interface for writing, browsing, and linking notes.
+- Obsidian Web Clipper helps capture web sources, while local attachments preserve reference context.
+- Additional tools such as Bases, Maps, Sync, Git, and static site generation extend the vault without changing its file-first nature.
+
+## Relevance to This Vault
+
+- Strong alignment: this repo also treats markdown files as durable artifacts and uses clipping plus synthesis.
+- Useful import: aggressive linking, reusable metadata, and simple formatting rules can improve long-term navigability.
+- Important tension: Ango explicitly rejects automating understanding, while [[wiki/LLM Wiki Workflow]] delegates much more maintenance and synthesis to the LLM. This source is therefore most useful as a style and information-architecture reference, not as a full automation model.
 
 ## Related Notes
 
 - [[raw/How I use Obsidian]]
 - [[wiki/LLM Wiki Workflow]]
+- [[Steph Ango]]
 - [[AGENTS]]
 - [[INDEX]]
 - [[LOG]]
