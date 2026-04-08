@@ -47,4 +47,5 @@ If vault knowledge changed, steps 4 and 5 are mandatory in the same task.
 
 ## Agent Notes
 - Read `MEMORY.md` before major edits.
+- Agents may proactively run lint checks after substantive wiki changes or when asked. Lint passes should check contradictions, stale statements, orphan pages, weak cross-links, and missing index/log updates, then append a `lint` entry to `LOG.md` when work is performed.
 - After non-trivial discoveries, add one concise reusable entry to `MEMORY.md`.

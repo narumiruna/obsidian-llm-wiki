@@ -12,30 +12,19 @@ This vault is a file-first knowledge system:
 
 You focus on choosing sources and asking good questions. The LLM focuses on organizing, linking, and maintaining the knowledge layer.
 
-## Quickstart
+You can browse and read the vault in Obsidian.
 
-1. Add one source note to `raw/`.
-2. Create or update a related note in `wiki/`.
-3. Capture the key ideas with clear evidence from the source.
-4. Add internal links (`[[...]]`) so the new note connects to existing topics.
-5. Update `INDEX.md` so the note is easy to discover.
-6. Append an entry to `LOG.md` with date and operation type.
-7. Repeat with the next source, one step at a time.
-
-## Day-to-Day Loop
+## Usage
 
 ### Ingest
-Read a new source and extract high-signal claims into the wiki.
+Use the Chrome extension [Obsidian Web Clipper](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf) to clip web pages you want to preserve into `raw/`. Then ask the LLM to process the source into the wiki.
 
 ### Query
-Ask questions against existing wiki notes, then file useful answers back into `wiki/` as durable pages.
-
-### Lint
-Periodically review for contradictions, stale claims, missing links, and orphan notes.
+Use Codex CLI (or another coding agent such as Claude Code) to ask questions against the vault or request a new note in `wiki/`. The LLM searches relevant notes, synthesizes an answer, and can file useful results back into the wiki as durable pages.
 
 ## What to Update Every Run
 
-When knowledge changes (new note, major synthesis, or substantial revision), update both:
+When knowledge changes (new note, major synthesis, or substantial revision), the LLM should update both:
 - `INDEX.md` for discoverability
 - `LOG.md` for chronological traceability
 
