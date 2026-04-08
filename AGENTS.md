@@ -22,12 +22,13 @@ This vault is a compiled knowledge base. Sources are collected in `raw/`, then s
 ## Standard Workflow
 1. Ingest: capture or read source material in `raw/`.
 2. Synthesize: create/update notes in `wiki/` with evidence-backed claims.
-3. Cross-link: add meaningful links to related notes and concepts.
-4. Update catalog: modify `INDEX.md` for new or materially changed notes.
-5. Update timeline: append a dated entry to `LOG.md` using:
+3. File query outputs back into `wiki/` when they add durable value as summaries, comparisons, analyses, or new concept pages.
+4. Cross-link: add meaningful links to related notes and concepts.
+5. Update catalog: modify `INDEX.md` for new or materially changed notes.
+6. Update timeline: append a dated entry to `LOG.md` for ingest, query, and lint work using:
    `## [YYYY-MM-DD] ingest|query|lint | <topic>`
 
-If vault knowledge changed, steps 4 and 5 are mandatory in the same task.
+If vault knowledge changed, steps 5 and 6 are mandatory in the same task. Even when no wiki files change, substantial ingest, query, or lint work should still be logged in `LOG.md`.
 
 ## Quality Checks
 - Verify key claims against source notes in `raw/`.
@@ -47,5 +48,5 @@ If vault knowledge changed, steps 4 and 5 are mandatory in the same task.
 
 ## Agent Notes
 - Read `MEMORY.md` before major edits.
-- Agents may proactively run lint checks after substantive wiki changes or when asked. Lint passes should check contradictions, stale statements, orphan pages, weak cross-links, and missing index/log updates, then append a `lint` entry to `LOG.md` when work is performed.
+- Agents may proactively run lint checks after substantive wiki changes or when asked. Lint passes should check contradictions, stale statements, orphan pages, weak cross-links, important concepts that lack their own pages, candidate article pages, data gaps that may justify web research, and missing index/log updates, then append a `lint` entry to `LOG.md` when work is performed.
 - After non-trivial discoveries, add one concise reusable entry to `MEMORY.md`.
